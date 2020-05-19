@@ -54,9 +54,6 @@ public class Main {
     }
 }
 
-public class MisMatchSizeOfArray extends RuntimeException {
-}
-
 
 
 
