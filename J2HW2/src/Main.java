@@ -43,13 +43,17 @@ public class Main {
 
     public static void main(String[] args) throws MisMatchSizeOfArray {
         makeArray("10 3 1 2\n2 3 2 2\n5 6 7 1\n300 3 1 0");
+
         System.out.println(Arrays.toString(str));
+        
         System.out.println(Arrays.deepToString(multiStr));
 
         toInt();
+
         System.out.println(Arrays.deepToString(intArray));
 
         sumEl(intArray);
+
         System.out.println(sumEl(intArray));
     }
 }
