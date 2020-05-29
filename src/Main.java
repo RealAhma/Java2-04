@@ -45,13 +45,16 @@ public abstract class Main implements Runnable{
 
 
     public static void main(String[] args) {
+
         method1();
 
         Runnable r = new Runnable() {
             @Override
             public void run() { method2(); }
         };
+
         new Thread(r, "Thread#1").start();
+
         new Thread(r, "Thread#2").start();
     }
 
